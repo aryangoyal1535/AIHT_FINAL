@@ -11,14 +11,15 @@ body {
     background-color: rgb(10, 10, 84);
     background-position: -150px 0;
 }
-
+ 
 
 button {
-    padding: 3vw 3vh;
+    /* padding: 3vw 2vh; */
+    padding-top: 2vh;
     width: 40vw;
     height: 10vh;
     /* font-size: 50px;  */
-    font-size: 4vw;
+    font-size: 3vw;
     background-color: #007bff;
     opacity: 92%;
     color: #fff;
