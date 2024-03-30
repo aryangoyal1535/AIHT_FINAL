@@ -9,6 +9,8 @@ document.getElementById('redirectButton').addEventListener('mouseout', function 
 
     document.getElementById('redirectButton').textContent = 'TinyML DevOps Project';
 });
+
+
 document.getElementById('Jenkins').addEventListener('click', function(){
     // window.location.href= 'http://localhost:8080/computer/';
     window.open('http://localhost:8080/computer/','Jenkins Aryan')
@@ -19,6 +21,8 @@ document.getElementById('Jenkins').addEventListener('mouseover', function(){
 document.getElementById('Jenkins').addEventListener('mouseout', function(){
     document.getElementById('Jenkins').textContent='Jenkins DevOps Report';
 });
+
+
 document.getElementById('Built-in').addEventListener('click', function(){
     // window.location.href= 'http://localhost:8080/computer/(built-in)/';
     window.open('http://localhost:8080/computer/(built-in)/', 'Node Report Aryan')
@@ -28,4 +32,26 @@ document.getElementById('Built-in').addEventListener('mouseover', function(){
 });
 document.getElementById('Built-in').addEventListener('mouseout', function(){
     document.getElementById('Built-in').textContent='Built-in Node Report';
+});
+
+
+document.getElementById('PowerBI').addEventListener('click', function(){
+    window.open('https://github.com/aryangoyal1535/Road-Accidents-PowerBi/blob/main/Road%20Accidents%20Dashboard.pdf', 'PowerBi Aryan')
+});
+document.getElementById('PowerBI').addEventListener('mouseover', function(){
+    document.getElementById('PowerBI').textContent='Road Accident Analysis';
+});
+document.getElementById('PowerBI').addEventListener('mouseout', function(){
+    document.getElementById('PowerBI').textContent='PowerBI';
+});
+
+
+document.getElementById('Spark').addEventListener('click', function(){
+    window.open('https://github.com/aryangoyal1535/Road-Accidents-PowerBi-Ecommerce-Spark/blob/main/E-Commerce_Sales_Analysis.ipynb', 'Spark Aryan')
+});
+document.getElementById('Spark').addEventListener('mouseover', function(){
+    document.getElementById('Spark').textContent='Ecommerce Dataset Analysis';
+});
+document.getElementById('Spark').addEventListener('mouseout', function(){
+    document.getElementById('Spark').textContent='Spark';
 });
