@@ -17,7 +17,7 @@ document.getElementById('Jenkins').addEventListener('mouseover', function(){
     document.getElementById('Jenkins').textContent='Generate Report';
 });
 document.getElementById('Jenkins').addEventListener('mouseout', function(){
-    document.getElementById('Jenkins').textContent='Check out Jenkins DevOps Report';
+    document.getElementById('Jenkins').textContent='Jenkins DevOps Report';
 });
 document.getElementById('Built-in').addEventListener('click', function(){
     // window.location.href= 'http://localhost:8080/computer/(built-in)/';
