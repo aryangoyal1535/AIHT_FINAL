@@ -23,15 +23,14 @@ document.getElementById('Jenkins').addEventListener('mouseout', function(){
 });
 
 
-document.getElementById('Built-in').addEventListener('click', function(){
-    // window.location.href= 'http://localhost:8080/computer/(built-in)/';
-    window.open('http://localhost:8080/computer/(built-in)/', 'Node Report Aryan')
+document.getElementById('RStudio').addEventListener('click', function(){
+    window.open('https://github.com/aryangoyal1535/Road-Accidents-PowerBi-Ecommerce-Spark/blob/main/Movie-dataset-R_Project.R', 'R Studio Aryan')
 });
-document.getElementById('Built-in').addEventListener('mouseover', function(){
-    document.getElementById('Built-in').textContent='Monitor Data';
+document.getElementById('RStudio').addEventListener('mouseover', function(){
+    document.getElementById('RStudio').textContent='Movie Dataset Analysis';
 });
-document.getElementById('Built-in').addEventListener('mouseout', function(){
-    document.getElementById('Built-in').textContent='Built-in Node Report';
+document.getElementById('RStudio').addEventListener('mouseout', function(){
+    document.getElementById('RStudio').textContent='R Studio Project';
 });
 
 
@@ -42,7 +41,7 @@ document.getElementById('PowerBI').addEventListener('mouseover', function(){
     document.getElementById('PowerBI').textContent='Road Accident Analysis';
 });
 document.getElementById('PowerBI').addEventListener('mouseout', function(){
-    document.getElementById('PowerBI').textContent='PowerBI';
+    document.getElementById('PowerBI').textContent='PowerBI Report';
 });
 
 
@@ -53,5 +52,5 @@ document.getElementById('Spark').addEventListener('mouseover', function(){
     document.getElementById('Spark').textContent='Ecommerce Dataset Analysis';
 });
 document.getElementById('Spark').addEventListener('mouseout', function(){
-    document.getElementById('Spark').textContent='Spark';
+    document.getElementById('Spark').textContent='Spark Report';
 });
