@@ -11,10 +11,18 @@ body {
     background-color: rgb(10, 10, 84);
     background-position: -150px 0;
 }
- 
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 120px;
+}
+
 
 button {
     /* padding: 3vw 2vh; */
+    margin-top: 1vh;
     padding-top: 2vh;
     width: 40vw;
     height: 10vh;
